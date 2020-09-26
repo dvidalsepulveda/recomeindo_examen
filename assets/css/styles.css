@@ -374,7 +374,11 @@ header .textos-header {
   height: auto;
   line-height: 20px;
   padding: 40px;
-  background-color: #f5f5f5;
+  background: linear-gradient(
+    to right,
+    hsla(34, 70%, 59%, 0.664),
+    hsla(27, 59%, 70%, 0.459)
+  );
   text-align: center;
 }
 
