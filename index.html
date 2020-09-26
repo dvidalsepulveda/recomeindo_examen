@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon png -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Epilogue font -->
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Recomiendo Chile</title>
+</head>
+
+<body>
+
+    <!-- Navbar responsivo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+        <a class="navbar-brand" href="#"><img class="navbar_logo" src="assets/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-4 snip1217">
+                <li class="nav-item active"><a class="nav-link" href="#" data-hover="Inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-hover="Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#eventos" data-hover="Eventos">Eventos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonios" data-hover="testimonios">Testimonios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto" data-hover="Contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fin Navbar responsivo -->
+
+    <header>
+        <section class="textos-header">
+            <h1>Bienvenidos a <span class="h1-muted">Recomiendo Chile</span></h1>
+            <h2>Rescatando la cocina sostenible y consciente</h2>
+
+            <button class="btn btn-warning my-2 btn-lg"><strong>Conocenos</strong></button>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg>
+            <!-- <svg viewBox="0 0 1440 320" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0,256L0,128L288,128L288,288L576,288L576,288L864,288L864,32L1152,32L1152,160L1440,160L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z" style="stroke: none; fill: #fff;"></path></svg> -->
+        </div>
+    </header>
+
+    <!-- Sección valor destacado -->
+    <section class="wave-contenedor website">
+        <!-- <img class="" src="assets/img/img1.jpg" alt=""> -->
+
+        <div class="slider-chico d-none d-sm-block">
+            <ul>
+                <li><img src="assets/img/img8.jpg" alt=""></li>
+                <li><img src="assets/img/img1.jpg" alt=""></li>
+                <li><img src="assets/img/img4.jpg" alt=""></li>
+                <li><img src="assets/img/img2.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="contenedor-textos-main">
+            <h2 class="titulo left">Nuestro compromiso</h2>
+            <p class="parrafo">Desde que se inicio esta aventura, hemos contribuido al conocimiento del lugar visitado, 
+                en una experiencia turística profunda, estableciendo relaciones personales y humanas con los territorios, 
+                los patrimonios y las comunidades locales. <br><br>
+                
+                Recomiendo Chile es también una experiencia para los sentidos y esto nos ha llevado a plasmar la 
+                vivencia del programa en los eventos que compartimos con cada uno de nuestros visitantes.</p>
+            <button class="btn btn-warning my-2 btn-lg">Conoce más de nosotros</button>
+        </div>
+    </section>
+    <!-- Fin Sección valor destacado -->
+
+    <!-- Botón Back to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+    <!-- Fin Botón Back to top -->
+
+    <main>
+
+        <div class="container">
+            <hr class="featurette-divider" id="eventos">
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <h1 class="eventos_heading">Eventos <span class="eventos_heading-muted">imperdibles</span></h1>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/img3.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1 class="carou_heading" style="text-shadow: 3px 3px 3px #9c6312;">Cocinando desde casa</h1>
+                            <p style="text-shadow: 3px 3px 3px #9c6312;">Seguimos cocinando en nuestras redes sociales en vivo por Facebook Watch e Instagram Live<br><br>
+                                Siguenos y no pares de cocinar</p>
+                            <p><a class="btn btn-lg btn-warning" href="#footer" role="button">Siguenos</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/img4.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="carou_heading" style="text-shadow: 3px 3px 3px #9c6312;">Revive todos nuestros eventos y actividades</h1>
+                            <p style="text-shadow: 3px 3px 3px #9c6312;">No olvides que en nuestra seccion eventos se encuentra el registro completo de las actividades
+                                que hemos realizado y se van agregando las realizadas en nuestras redes sociales</p>
+                            <p><a class="btn btn-lg btn-warning" href="#" role="button">Ir a Eventos</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/img5.jpg" alt="">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1 class="carou_heading" style="text-shadow: 3px 3px 3px #9c6312;">Recomiendo Chile Edición Verano</h1>
+                            <p style="text-shadow: 3px 3px 3px #9c6312;">Volveremos al parque, es por ello que se han iniciado las inscripciones para nuestro evento presencial<br>
+                                No te quedes afuera, para esta ocación tenemos más cupos!!!</p>
+                            <p><a class="btn btn-lg btn-warning" href="#" role="button">Más información</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <!-- Sección de productos -->
+        <div class="container">
+
+            <hr class="featurette-divider">
+
+            <h4 class="productos_heading">¿Te perdiste alguna receta del programa?
+                <span class="productos_heading-muted">No te preocupes, las tenemos a tu disposición por zona</span></h4>
+            <br>
+
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item pill-c" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true">
+                        <h5>Zona norte</h5>
+                    </a>
+                </li>
+                <li class="nav-item pill-c" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">
+                        <h5>Zona centro</h5>
+                    </a>
+                </li>
+                <li class="nav-item pill-c" role="presentation">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                        aria-controls="pills-contact" aria-selected="false">
+                        <h5>Zona sur</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <section class="productos">
+                    <div class="album py-5">
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-n1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Chairo</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Sopa de alpaca o llama con verduras diversas</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-n2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Chumbeque</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Dulce esta preparado a base de manteca, harina</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-n3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Calapurca</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Caldo con carnes de cordero, llama y pollo</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                <section class="productos">
+                    <div class="album py-5">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-c1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Caldillo de congrio</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Caldo de congrio con verduras y especias</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-c2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Humitas</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Choclo fresco picado o molido, aderezado con ají, cebolla, sal o
+                                                    azúcar</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-c3.png" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Pastel de Choclo</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Preparación de choclo tierno y pino, acompañado con aceitunas, huevo
+                                                    duro y pedazos de pollo</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                <section class="productos">
+                    <div class="album py-5">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-s1.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Curanto</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Preparación con diversos tipos de mariscos y productos de la zona
+                                                </h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-s2.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Sopaipillas</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Plato preparado de papas crudas ralladas y papas cocidas</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img class="img_comida" src="assets/img/comida-s3.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5><b>Roscas chonchinas</b></h5>
+                                            <div style="color: gold;">
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item d-flex justify-content-center align-items-center">
+                                                <h7>Rosca seca, firme y con un dulzor ligero que se tienden a acompañar
+                                                    con ricas bebidas calientes</h7>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito2 positex">
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Conocer</p>
+                                                                <p class="chiqui pos-bot">del lugar</p>
+                                                            </div>
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-map-marked-alt fa-2x"></i></div>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn cito1 positex">
+                                                            <div class="positex-in"><i
+                                                                    class="fas fa-utensils fa-2x"></i></div>
+                                                            <div class="positex-in">
+                                                                <p class="chiqui pos-top">Ir a la</p>
+                                                                <p class="chiqui pos-bot">Reseta</p>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- Fin Sección de productos-->
+
+        <!-- Boton ver mas productos -->
+        <div class="container d-flex justify-content-end align-items-center">
+            <button type="button" class="btn btn-warning btn-lg">Ver catalogo completo <i class="fas fa-angle-double-right"></i></button>
+        </div>
+        <!-- Fin Boton ver mas productos -->
+
+        <div class="container">
+            <hr class="featurette-divider">
+        </div>
+
+        <div class="container d-flex justify-content-center align-items-center" style="flex-direction: column;">
+            <h4 class="productos_heading" style="font-size: 25px;">Suscribete a nuestras redes sociales para mas recetas y estar al dia con los eventos.</h4>
+            <a href="#footer"><button type="button" class="btn btn-warning btn-lg">Redes sociales  <i class="fas fa-angle-double-down"></i></button></a>
+        </div>
+
+        
+
+        <!-- Testimonio destacado -->
+        <div class="container marketing">
+            <hr class="featurette-divider" id="testimonios">
+            <div class="container marketing">
+
+                
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Testimonio <span class="text-muted">destacado de la
+                                semana.</span></h2><br>
+                        <h4 class="testi_sub-ti">Juan de la Cruz, <span class="testi_sub-ti-muted">Cochamo, Región de
+                                Los Lagos</span></h4>
+                        <p class="">La visita del programa para nosotros representó una gran oportunidad de mostrar 
+                            cada una de las actividades y preparaciones que realizamos en nuestro hostal, recatando tradición 
+                            de nuestroas antepasados, junto con el manejo moderno que le hemos inyectado a la formula.<br><br>
+                            Es por esto que cada vez que se hacen los eventos en los distintos puntos del pais lejanos a nosotros,
+                             no dudamos en participar y mostrar a Chile y al mundo lo lindo que tenemos en Cochamo.</p>
+                        <br>
+                        <button type="button" class="btn btn-warning btn-lg">Ver más testimonios <i
+                                class="fas fa-angle-double-right"></i></button>
+                        <br>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" src="assets/img/testimonio.jpg" alt="">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider" id="contacto">
+            </div>
+        </div>
+        <!-- Fin Testimonio destacado -->
+
+        <!-- Formulario de contacto -->
+        <div class="container marketing">
+            <div class="container marketing">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+
+                        <h2 style="font-weight: 600;"> Contactanos</h2>
+
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputNombre">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Nombre" id="inputNombre">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputApellido">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Apellido" id="inputApellido">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Email</label>
+                                <input type="text" class="form-control" id="inputEmail"
+                                    placeholder="tucorreo@dominio.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Telefono movil</label>
+                                <input type="text" class="form-control" id="inputAddress"
+                                    placeholder="(+56) 9 1234 5678">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensaje</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Tu mensaje"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Acepta términos y condiciones
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-warning btn-lg">Enviar</button>
+                        </form>
+
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <br><br>
+                        <img class="featurette-image img-fluid mx-auto" src="assets/img/logo.png" alt="">
+                        <p class="con_text">Eventos<span style="font-weight: 300;"> &</span> Consultas</p>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+            </div>
+        </div>
+        <!-- Fin Formulario de contacto -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container-fluid" id="footer">
+
+        <h1 class="footer_heading">Siguenos en nuestras redes sociales.</h1>
+        <div class="caja">
+            <a href="https://www.facebook.com/Recomiendo-Chile-307427189689322/" class="rrss"><i
+                    class="fab fa-facebook-square fa-4x"></i></a>
+            <a href="https://twitter.com/recomiendochile?lang=es" class="rrss"><i
+                    class="fab fa-twitter-square fa-4x"></i></a>
+            <a href="https://www.instagram.com/recomiendo_chile/" class="rrss"><i
+                    class="fab fa-instagram-square fa-4x"></i></a>
+            <a href="#" class="rrss"><i class="fab fa-whatsapp-square fa-4x"></i></a>
+        </div>
+        <p>Texto legal al pie de la pagina. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Tempore
+            corporis repellendus explicabo minus quidem.<br><br>Nombre de la marca ©</p>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
